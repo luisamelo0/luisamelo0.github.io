@@ -1,1 +1,58 @@
+h1 {
+     color: #DFAEFC;
+     font-size: 40px;
+     text-align: center;
+}
+
+h2 {
+  color: #BFE4FD;
+  font-size: 33px;
+}
+
+p {
+    color: 444;
+}
+
+a {
+  color: 333;
+}
+
+.cargo {
+   color: #60aab3;
+  font-weight: bold;
+}
+
+.link-social {
+     color: ##b3dee3;
+}  
+
+#hero {
+  background-color: #e8f4f8;
+}
+
+#sobre {
+  background-color: #cae2eb;
+}
+
+#habilidades {
+   backgroud-color: #c0e0eb;
+}
+
+#projetos {
+  background-color: #b5dbe8;
+}
+
+#contato {
+  background-color:#97cadb;
+}
+
+footer {
+  background-color:#b9edeb;
+}
+
+footer p {
+  color:#edf0f0;
+}
+  
+  
 
