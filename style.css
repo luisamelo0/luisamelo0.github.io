@@ -1,5 +1,5 @@
 h1 {
-     color: #DFAEFC;
+     color: #000000;
      font-size: 40px;
      text-align: center;
 }
@@ -18,7 +18,7 @@ a {
 }
 
 .cargo {
-   color: #60aab3;
+   color: #F4942F;
   font-weight: bold;
 }
 
