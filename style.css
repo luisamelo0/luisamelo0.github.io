@@ -30,6 +30,11 @@ a {
   background-color: #ffffff;   
 }
 
+#hero img{
+    border-radius: 20px;
+    overflow: hidden; 
+}
+
 #sobre {
   background-color:#ffffff;
 }
@@ -57,8 +62,6 @@ footer p {
   
 body{
     font-family: Arial, sans-serif;
-    border-radius: 20px;
-    overflow: hidden; 
 }
 
 header{
