@@ -10,7 +10,7 @@ h2 {
 }
 
 p {
-    color: #444444;
+    color: #000000;
 }
 
 a {
@@ -73,6 +73,6 @@ nav{
 
 .projetos-grid{
     display: grid;
-    grid-template-colums: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
