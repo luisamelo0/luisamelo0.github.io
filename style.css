@@ -57,6 +57,8 @@ footer p {
   
 body{
     font-family: Arial, sans-serif;
+    border-radius: 20px;
+    overflow: hidden; 
 }
 
 header{
@@ -64,7 +66,6 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    border-radius: 50px;
 }
 
 nav{
