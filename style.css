@@ -91,3 +91,21 @@ nav{
     grid-template-columns: 1fr;
     gap: 20px; 
 }
+
+@media (min-width: 768px) {
+
+  nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  header{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .projetos-grid{
+    grip-template-columns: repeat(3, 1fr);
+  }
+}
