@@ -28,11 +28,17 @@ a {
 
 #hero {
   background-color: #CCDCDB;   
+  padding: 30px;
+  margin: 20px;
+  border: 2px solid black;    
+     
 }
 
 #hero img {
     width: 300px;
     border-radius: 20px;
+    width: 100%
+    max-widht: 300px; 
 }
 
 #sobre {
@@ -69,6 +75,8 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    display: flex;
+    align-items: center; 
 }
 
 nav{
@@ -80,4 +88,6 @@ nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    grid-template-columns: 1fr;
+    gap: 20px; 
 }
