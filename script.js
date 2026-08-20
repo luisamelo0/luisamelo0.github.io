@@ -1,7 +1,7 @@
 console.log("JavaScript conectado!");
 
-//const titulo = document.querySelector("h1");
-//console.log(titulo);
+const titulo = document.querySelector("h1");
+console.log(titulo);
 
 //const hero = document.querySelector("#hero");
 //console.log(hero.textContent);
