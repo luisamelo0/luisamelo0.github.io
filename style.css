@@ -26,7 +26,7 @@ header {
 header h1 {
     font-family: 'Playfair Display', serif;
     font-size: 50px;
-    color: #96187b;
+    color: #1b338a;
 }
 
 .subtitulo {
@@ -39,7 +39,7 @@ header h1 {
 
 nav {
     margin-top: 30px;
-    background-color: #96187b;
+    background-color: #1b338a;
     padding: 18px;
 }
 
@@ -81,7 +81,7 @@ nav a:hover {
 
 .hero h2 {
     font-family: 'Playfair Display', serif;
-    color: #96187b;
+    color: #1b338a;
     font-size: 38px;
     margin-bottom: 15px;
 }
@@ -101,7 +101,7 @@ nav a:hover {
 
 .secao h2 {
     font-family: 'Playfair Display', serif;
-    color: #96187b;
+    color: #1b338a;
     font-size: 36px;
 }
 
@@ -112,7 +112,7 @@ nav a:hover {
 .linha {
     width: 60px;
     height: 3px;
-    background-color: #96187b;
+    background-color: #1b338a;
     margin: 15px auto 30px;
 }
 
@@ -147,7 +147,7 @@ nav a:hover {
 }
 
 .card h3 {
-    color: #96187b;
+    color: #1b338a;
     margin: 10px 0;
 }
 
@@ -161,7 +161,7 @@ nav a:hover {
 
 .botao {
     display: inline-block;
-    background-color: #96187b;
+    background-color: #1b338a;
     color: white;
     padding: 10px 22px;
     border-radius: 25px;
@@ -187,7 +187,7 @@ form {
 
 form label {
     display: block;
-    color: #96187b;
+    color: #1b338a;
     font-weight: 600;
     margin-top: 15px;
 }
@@ -212,7 +212,7 @@ form button {
     border: none;
     border-radius: 25px;
 
-    background-color: #96187b;
+    background-color: #1b338a;
     color: white;
 
     font-size: 16px;
