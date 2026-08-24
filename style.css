@@ -169,7 +169,7 @@ nav a:hover {
 }
 
 .botao:hover {
-    background-color: #741261;
+    background-color: #187a98;
 }
 
 
@@ -222,14 +222,13 @@ form button {
 }
 
 form button:hover {
-    background-color: #741261;
+    background-color: #187a98;
 }
 
 
-/* RODAPÉ */
 
 footer {
-    background-color: #2d1b29;
+    background-color: #06065c;
     color: white;
     text-align: center;
     padding: 40px 20px;
@@ -237,7 +236,7 @@ footer {
 
 footer h3 {
     font-family: 'Playfair Display', serif;
-    color: #ffb6e3;
+    color: #28128c;
     font-size: 28px;
 }
 
@@ -257,7 +256,6 @@ footer a {
 }
 
 
-/* CELULAR */
 
 @media (max-width: 600px) {
 
