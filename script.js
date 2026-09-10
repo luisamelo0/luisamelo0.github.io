@@ -1,17 +1,11 @@
 console.log("JavaScript conectado!");
 
-contato.addEventListener("submit", function(event) {
-
-    event.preventDefault();
-
-   console.log("Formulário enviado!");
-
-});
-
 const formulario = document.querySelector("form");
 
-formulario.addEventListener("submit", function (event) {
+formulario.addEventListener("submit", function(event) {
     event.preventDefault();
+
+    console.log("Formulário enviado!");
 
     const mensagemSucesso = document.getElementById("mensagem-sucesso");
 
