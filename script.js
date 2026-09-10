@@ -1,6 +1,6 @@
 console.log("JavaScript conectado!");
 
-formulario.addEventListener("submit", function(event) {
+contato.addEventListener("submit", function(event) {
 
     event.preventDefault();
 
