@@ -1,11 +1,6 @@
-console.log("JavaScript conectado!");
-console.log("Document");
+formulario.addEventListener("submit", function(event) {
 
-const titulo = document.querySelector("h1");
-console.log(titulo);
+   console.log("Formulário enviado!");
 
-const hero = document.querySelector("#hero");
-console.log(hero.textContent);
+});
 
-//const linkSocial = document.querySelector(".link-social");
-//console.log(link-social);
