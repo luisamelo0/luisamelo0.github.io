@@ -1,164 +1,239 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
+ 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-
-<meta
-    name="description"
-    content="Portfólio pessoal de Luísa Melo, estudante de desenvolvimento Front-end.Conheça meus projetos, habilidades e formas de contato.">   
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal de Luísa Melo, desenvolvedora Front-end.">
     <title>Luísa Melo | Portfólio</title>
-
+ 
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-
+ 
 <body>
-
+ 
+    <!-- Cabeçalho -->
     <header>
-
         <h1>Luísa Melo</h1>
-
         <p>Desenvolvedora Front-end</p>
-
+ 
         <nav>
-            <a href="#hero">Início</a> |
-            <a href="#sobre">Sobre</a> |
-            <a href="#habilidades">Habilidades</a> |
-            <a href="#projetos">Projetos</a> |
+            <a href="#hero">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
             <a href="#contato">Contato</a>
         </nav>
-
     </header>
-
+ 
     <main>
-
+ 
+        <!-- Início -->
         <section id="hero">
-
-            <img
-                src="luisa.jpg"
-                alt="Foto da criadora do site">
-
-                <h2>Prazer, sou Luísa!</h2>
-
-                <p>
-                Sou estudante de desenvolvimento Front-end e estou construindo
-                meu portfólio para compartilhar meus projetos e aprendizados. Sinta-se bem-vindo(a) para me acompanhar nesta jornada.
-                </p>
-
-       </section>        
-
-       <section id="sobre" class="secao"> 
-
-        <h2>Sobre mim</h2>
-        <div class="linha"></div>
-
-        <p>
-             Tenho interesse em desenvolvimento web e estou aprendendo
-             HTML, CSS e outras tecnologias para criar sites modernos.
-        </p>
-
-       </section>
-
-        <section id="habilidades" class="secao bloco-destaque">
-
-        <h2>Minhas Habilidades</h2>
-
-        <div class="linha"></div>
-
-        <div class="cards">
-
-            <div class="card">
-                <h3>HTML</h3>
-            </div>
-
-            <div class="card">
-                <h3>CSS</h3>
-            </div>
-
-            <div class="card">
-                <h3>Git e GitHub</h3>
-            </div>
-
-        </div>
-
-    </section>
-
-       <section id="projetos" class="secao">
-
-        <h2>Meus Projetos</h2>
-
-        <div class="linha"></div>
-        <div class="cards">
-            
-            <div class="card projeto">
-                
-                <h3>Landing Page</h3>
-                
+ 
+            <img src="luisa.jpg" alt="Foto de Luísa">
+ 
+            <h2>Prazer, sou Luísa!</h2>
+ 
+            <div class="linha"></div>
+ 
+            <p>
+                Sou estudante de desenvolvimento web e estou construindo
+                meu portfólio para compartilhar meus projetos e aprendizados.
+            </p>
+ 
+            <a href="#projetos" class="botao">Ver meus projetos</a>
+ 
+        </section>
+ 
+        <!-- Sobre -->
+        <section id="sobre" class="secao bloco-destaque">
+ 
+            <h2>Sobre Mim</h2>
+ 
+            <div class="linha"></div>
+ 
+            <p>
+                Tenho interesse em desenvolvimento web e estou aprendendo
+                HTML, CSS e outras tecnologias para criar sites modernos,
+                organizados e responsivos.
+            </p>
+ 
+            <button id="btn-ver-mais" class="botao">
+                Ver mais
+            </button>
+ 
+            <div id="conteudo-extra"></div>
+ 
+        </section>
+ 
+        <!-- Habilidades -->
+        <section id="habilidades" class="secao">
+ 
+            <h2>Minhas Habilidades</h2>
+ 
+            <div class="linha"></div>
+ 
+            <p class="descricao">
+                Tecnologias que estou aprendendo e utilizando
+                nos meus projetos.
+            </p>
+ 
+            <div class="cards">
+ 
+                <div class="card">
+                    <h3>HTML</h3>
+ 
                     <p>
-                        Página criada utilizando HTML.
+                        Utilizo HTML para criar a estrutura das páginas
+                        e organizar seus conteúdos.
                     </p>
-
-                    <a href="#" class="botao">Ver projetos</a>
-                    </div>
-
-                    <div class="card projeto">
-                        <h3>Currículo online</h3>
-                        
-                            <p>
-                               Primeira versão do meu portfólio.
-                            </p>
-
-                            <a href="#" class="botao">Ver Projeto</a>
-                            </div>
-
-                            <div class="card projeto">
-                                 <h3>Site Responsivo</h3>
-                
-                                    <p>
-                                        Projeto desenvolvido para praticar CSS.
-                                    </p>
-
-                                    <a href="#" class="botao">Ver projetos</a>
-                                    </div>
-                            
-                        </div>
-                     </section>         
-
-       <section id="contato" class="secao bloco-destaque">
-
-        <h2>Entre em contato</h2>
-        <div class="linha"></div>
-        <form>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" placeholder="Digite seu nome">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="Digite seu e-mail">
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" rows="5" placeholder="Digite sua mensagem">
-            </textarea>
-            <button type="submit"> Enviar mensagem </button>    
-
+                </div>
+ 
+                <div class="card">
+                    <h3>CSS</h3>
+ 
+                    <p>
+                        Utilizo CSS para estilizar páginas e criar
+                        layouts bonitos e responsivos.
+                    </p>
+                </div>
+ 
+                <div class="card">
+                    <h3>GitHub</h3>
+ 
+                    <p>
+                        Utilizo Git e GitHub para armazenar, organizar
+                        e compartilhar meus projetos.
+                    </p>
+                </div>
+ 
+            </div>
+ 
+        </section>
+ 
+        <!-- Projetos -->
+        <section id="projetos" class="secao bloco-destaque">
+ 
+            <h2>Meus Projetos</h2>
+ 
+            <div class="linha"></div>
+ 
+            <p class="descricao">
+                Alguns projetos desenvolvidos durante meus estudos.
+            </p>
+ 
+            <div class="cards">
+ 
+                <article class="card">
+                    <h3>Landing Page</h3>
+ 
+                    <p>
+                        Página desenvolvida utilizando HTML e CSS
+                        para praticar estrutura e estilização.
+                    </p>
+ 
+                    <a href="#" class="botao">Ver projeto</a>
+                </article>
+ 
+                <article class="card">
+                    <h3>Currículo Online</h3>
+ 
+                    <p>
+                        Página pessoal criada para apresentar
+                        informações profissionais e habilidades.
+                    </p>
+ 
+                    <a href="#" class="botao">Ver projeto</a>
+                </article>
+ 
+                <article class="card">
+                    <h3>Site Responsivo</h3>
+ 
+                    <p>
+                        Projeto desenvolvido para praticar CSS,
+                        organização e adaptação para diferentes telas.
+                    </p>
+ 
+                    <a href="#" class="botao">Ver projeto</a>
+                </article>
+ 
+            </div>
+ 
+        </section>
+ 
+        <!-- Contato -->
+        <section id="contato" class="secao">
+ 
+            <h2>Entre em Contato</h2>
+ 
+            <div class="linha"></div>
+ 
+            <p class="descricao">
+                Tem alguma dúvida ou quer entrar em contato?
+                Envie uma mensagem!
+            </p>
+ 
+            <form id="formulario">
+ 
+                <label for="nome">Nome</label>
+ 
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    required>
+ 
+                <label for="email">E-mail</label>
+ 
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    required>
+ 
+                <label for="mensagem">Mensagem</label>
+ 
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="6"
+                    placeholder="Digite sua mensagem"
+                    required></textarea>
+ 
+                <p id="contador"></p>
+ 
+                <button type="submit">
+                    Enviar mensagem
+                </button>
+ 
+            </form>
+ 
             <p id="mensagem-sucesso"></p>
-
-        </form>
-      </section>  
-
-
+ 
+        </section>
+ 
+    </main>
+ 
+    <!-- Rodapé -->
     <footer>
-
+ 
         <p>&copy; 2026 Luísa Melo</p>
-
+ 
         <p>E-mail: luisanascimentomelo0@gmail.com</p>
-
+ 
         <p>
-            <a class="link-social" href="#">GitHub</a> |
+            <a class="link-social" href="#">GitHub</a>
+            |
             <a class="link-social" href="#">LinkedIn</a>
         </p>
-
+ 
     </footer>
-
+ 
 </body>
-
+ 
 </html>
+ 
